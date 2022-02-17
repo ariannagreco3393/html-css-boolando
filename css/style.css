@@ -84,3 +84,10 @@
     font-weight: 200;
 }
 
+footer {
+    margin-top: 10px;
+    text-align: center;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+  }
