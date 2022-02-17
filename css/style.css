@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 300px;
+}
+
+
+.products {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.product {
+    display: inline-block;
+    position: relative;
+}
+
+.like {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.badge-discount {
+    background-color: red;
+    color: white;
+    padding: 4px;
+    font-size: 0.65rem;
+    font-weight: 800;
+    position: absolute;
+    bottom: 75px;
+
+}
+
+.badge-category {
+    background-color: green;
+    color: white;
+    padding: 4px;
+    font-size: 0.65rem;
+    font-weight: 800;
+    position: absolute;
+    bottom: 75px;
+    left: 35px;    
+}
+
+.description {
+    text-align: left;  
+    font-size: 12px;
+}
+
+.product-name {
+    text-align: left;
+    font-weight: 800;
+}
+
+.discount-price {
+    text-align: left;
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.price {
+    color: black;
+    text-decoration:line-through;
+    font-weight: 200;
+}
