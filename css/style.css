@@ -8,15 +8,9 @@
     width: 300px;
 }
 
-
 .products {
     text-align: center;
     margin-top: 15px;
-}
-
-.product {
-    display: inline-block;
-    position: relative;
 }
 
 .like {
@@ -30,6 +24,21 @@
     vertical-align: middle;
 }
 
+
+.product {
+    display: inline-block;
+    position: relative;
+}
+
+.img-hidden {
+    position: absolute;
+    right: 0px;
+    visibility: hidden;
+}
+
+.product:hover .img-hidden {
+    visibility: visible;
+  }
 .badge-discount {
     background-color: red;
     color: white;
@@ -74,3 +83,4 @@
     text-decoration:line-through;
     font-weight: 200;
 }
+
